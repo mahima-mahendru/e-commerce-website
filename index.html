@@ -1,0 +1,287 @@
+<!DOCTYPE>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="style.css">
+        <title>SHORT-CART</title>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" charset="utf-8"></script>
+
+    </head>
+    <body>
+        <div class="grid-container">
+            <header class="header">
+                <div class="brand">
+                    <a href="index.html">SHORT-CART</a>
+                </div>
+                <div class="header-links">
+                    
+                
+                <a href="index.html">ALL PRODUCTS</a>
+                <a href="specials.html">SPECIALS</a>
+                <a href="contact.html">CONTACT US</a>
+            </div>
+            </header>
+            
+            
+            <main class="main">
+               <!-- <div class ="slider">
+                    <div class="slides">
+                        <input type="radio" name="radio-btn" id="r1">
+                        <input type="radio" name="radio-btn" id="r2">
+                        <input type="radio" name="radio-btn" id="r3">
+                        <input type="radio" name="radio-btn" id="r4">
+                        <div class="slide first">
+                            <img src="images/patanjali logo.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="images/ramdev.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="images/r2.jpg">
+                        </div>
+                        <div class="slide">
+                            <img src="images/r3.jpg">
+                        </div>
+
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                            <div class="auto-btn4"></div>
+                        </div>
+                    </div>
+                    <div class="navigation-manual">
+                        <label for="r1" class="manual-btn"></label>
+                        <label for="r2" class="manual-btn"></label>
+                        <label for="r3" class="manual-btn"></label>
+                        <label for="r4" class="manual-btn"></label>
+                    </div>
+                </div>-->
+<br>
+                <div class="slideshow-container">
+
+                    <div class="mySlides fade">
+                      
+                      <img src="images/r5.jpg" width="1000px" height="300px">
+                      <!--<div class="text">Caption Text</div>-->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                     
+                      <img src="images/r2.jpg" width="1000px" height="300px">
+                     <!-- <div class="text">Caption Two</div>-->
+                    </div>
+                    
+                    <div class="mySlides fade">
+                     
+                      <img src="images/r4.jpg" width="1000px" height="300px">
+                      <!--<div class="text">Caption Three</div>-->
+                    </div>
+                    
+                    <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1)">&#10095;</a>
+                    
+                    </div>
+                    <br>
+                    
+                    <div style="text-align:center">
+                      <span class="dot" onclick="currentSlide(1)"></span> 
+                      <span class="dot" onclick="currentSlide(2)"></span> 
+                      <span class="dot" onclick="currentSlide(3)"></span> 
+                    </div>
+                    
+                    <script>
+                    var slideIndex = 1;
+                    showSlides(slideIndex);
+                    
+                    function plusSlides(n) {
+                      showSlides(slideIndex += n);
+                    }
+                    
+                    function currentSlide(n) {
+                      showSlides(slideIndex = n);
+                    }
+                    
+                    function showSlides(n) {
+                      var i;
+                      var slides = document.getElementsByClassName("mySlides");
+                      var dots = document.getElementsByClassName("dot");
+                      if (n > slides.length) {slideIndex = 1}    
+                      if (n < 1) {slideIndex = slides.length}
+                      for (i = 0; i < slides.length; i++) {
+                          slides[i].style.display = "none";  
+                      }
+                      for (i = 0; i < dots.length; i++) {
+                          dots[i].className = dots[i].className.replace("active", "");
+                      }
+                      slides[slideIndex-1].style.display = "block";  
+                      dots[slideIndex-1].className += " active";
+                    }
+                    </script>
+<br>
+<div class="moving-text">
+    <marquee>FREE DELIVERY FOR ALL ORDERS </marquee>
+</div>
+                    <br>
+                    <div class="texts">ALL PRODUCTS</div>
+
+               <div class="container">
+                   
+                        <div class="product">
+                            <a href="aloe_vera_gel.html">
+                            <img src="images/aloe_vera_gel.jpg"></a>
+                            <div class="product-name">
+                               ALOE VERA GEL<br>Rs 110</div>
+                                </a>
+                            </div>
+                            <div class="product">
+                                <a href="aloe_vera_shampoo.html">
+                                    <img src="images/wheatgrass.jpg"></a>
+                                    <div class="product-name">
+                                     WHEAT GRASS<br>Rs 110</div>
+                                        </a>
+                                    </div>
+                                    <div class="product">
+                                        <a href="anti_dandruff_shampoo.html">
+                                            <img src="images/anti_dandruff_shampoo.jpg"></a>
+                                            <div class="product-name">
+                                               ANTI-DANDRUFF SHAMPOO<br>Rs 110</div>
+                                                </a>
+                                            </div>
+                                            <div class="product">
+                                                <a href="anti_wrinkle_cream.html">
+                                                    <img src="images/anti_wrinkle_cream.jpg"></a>
+                                                    <div class="product-name">
+                                                       ANTI-WRINKLE CREAM<br>Rs 110</div>
+                                                        </a>
+                                                    </div>
+                                                    <div class="product">
+
+                                                        <a href="apricot_face_scrub.html">
+                                                            <img src="images/apricot_face_scrub.jpg"></a>
+                                                            <div class="product-name">
+                                                               APRICOT FACE SCRUB<br>Rs 110</div>
+                                                                </a>
+                                                            </div>
+                                                            <div class="product">
+                                                                <a href="beauty_cream.html">
+                                                                    <img src="images/beauty_cream.jpg"></a>
+                                                                    <div class="product-name">
+                                                                       BEAUTY CREAM<br>Rs 110</div>
+                                                                        </a>
+                              
+                            
+                                                                        </div>
+                                                                        <div class="product">
+                                                                            <a href="chawanprash.html">
+                                                                                <img src="images/chawanprash.jpg"></a>
+                                                                                <div class="product-name">
+                                                                                   CHAWANPRASH<br>Rs 110</div>
+                                                                                    </a>
+                                          
+                                        
+                                                                                    </div>
+                                                                                    <div class="product">
+                                                                                        <a href="ghee.html">
+                                                                                            <img src="images/ghee.jpg"></a>
+                                                                                            <div class="product-name">
+                                                                                               GHEE<br>Rs 110</div>
+                                                                                                </a>
+                                                      
+                                                    
+                                                                                                </div>
+                                                                                                <div class="product">
+                                                                                                    <a href="hair_cleanser_shampoo.html">
+                                                                                                        <img src="images/hair_cleanser_shampoo.jpg"></a>
+                                                                                                        <div class="product-name">
+                                                                                                           HAIR-CLEANSER SHAMPOO<br>Rs 110</div>
+                                                                                                            </a>
+                                                                  
+                                                                
+                                                                                                            </div>
+                                                                                                            <div class="product">
+                                                                                                                <a href="milk_protein_shampoo.html">
+                                                                                                                    <img src="images/milk_protein_shampoo.jpg"></a>
+                                                                                                                    <div class="product-name">
+                                                                                                                       MILK-PROTEIN SHAMPOO<br>Rs 110</div>
+                                                                                                                        </a>
+                                                                              
+                                                                            
+                                                                                                                        </div>
+                                                                                                                        <div class="product">
+                                                                                                                            <a href="honey.html">
+                                                                                                                                <img src="images/honey.jpg"></a>
+                                                                                                                                <div class="product-name">
+                                                                                                                                   HONEY<br>Rs 110</div>
+                                                                                                                                    </a>
+                                                                                          
+                                                                                        
+                                                                                                                                    </div>
+                                                                                                                                    <div class="product">
+                                                                                                                                        <a href="oats.html">
+                                                                                                                                            <img src="images/oats.jpg"></a>
+                                                                                                                                            <div class="product-name">
+                                                                                                                                               OATS<br>Rs 110</div>
+                                                                                                                                                </a>
+                                                                                                      
+                                                                                                    
+                                                                                                                                                </div>
+                                                                                                                                                <div class="product">
+                                                                                                                                                    <a href="rose_face_wash.html">
+                                                                                                                                                        <img src="images/rose_face_wash.jpg"></a>
+                                                                                                                                                        <div class="product-name">
+                                                                                                                                                           ROSE FACE WASH<br>Rs 110</div>
+                                                                                                                                                            </a>
+                                                                                                                  
+                                                                                                                
+                                                                                                                                                            </div>
+                                                                                                                                                            <div class="product">
+                                                                                                                                                                <a href="choco_flakes.html">
+                                                                                                                                                                    <img src="images/choco_flakes.jpg"></a>
+                                                                                                                                                                    <div class="product-name">
+                                                                                                                                                                       CHOCO-FLAKES<br>Rs 110</div>
+                                                                                                                                                                        </a>
+                                                                                                                              
+                                                                                                                            
+                                                                                                                                                                        </div>
+                                                                                                                                                                        <div class="product">
+                                                                                                                                                                            <a href="toothpaste.html">
+                                                                                                                                                                                <img src="images/spirulina.jpg"></a>
+                                                                                                                                                                                <div class="product-name">
+                                                                                                                                                                                  SPIRULINA<br>Rs 110</div>
+                                                                                                                                                                                    </a>
+                                                                                                                                          <br>
+                                                                                                                                        
+                                                                                                                                                                                    </div>
+                                                                                                                                                                                    <div class="product">
+                                                                                                                                                                                        <a href="toothpaste.html">
+                                                                                                                                                                                            <img src="images/pro3.jpg"></a>
+                                                                                                                                                                                            <div class="product-name">
+                                                                                                                                                                                              SPIRULINA<br>Rs 110</div>
+                                                                                                                                                                                                </a>
+                                                                                                                                                      <br>
+                                                                                                                                                    
+                                                                                                                                                                                                </div>
+                                                                                                                                                                                   
+                                                                                                                                                                                    <br>
+                                                                    </div>
+            </main>
+        </div>
+        <!--
+        <script type="text/javascript">
+        var counter=1;
+        setInterval(function(){
+            document.getElementById('radio'+counter).checked=true;
+            counter++;
+            if(counter>4)
+            {
+                counter=1;
+            }
+        },5000);
+        </script>-->
+    </body>
+    <footer class="footer">
+        &copy Copyright 2020, MADE BY MAHIMA MAHENDRU
+    </footer>
+</html>
